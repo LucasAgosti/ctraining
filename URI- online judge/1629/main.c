@@ -3,12 +3,12 @@
 
 int SomaDeDigitos(int j){
 
-    int x = 0;
+    int y = 0;
     while(j > 0){
-        x += j%10;
+        y += j%10;
         j = j/10;
     }
-    return x;
+    return y;
 }
 
 int main(){
